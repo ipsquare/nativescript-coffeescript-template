@@ -1,14 +1,14 @@
 {
-	"name": "tns-template-hello-world",
+	"name": "nativescript-coffeescript-template",
 	"main": "app.js",
-	"version": "2.1.0",
-	"author": "Telerik <support@telerik.com>",
-	"description": "Nativescript hello-world project template",
+	"version": "2.*",
+	"author": "Amit <dev@ipsquare.com>",
+	"description": "Nativescript Coffeescript hello-world project template",
 	"license": "Apache-2.0",
 	"keywords": [
-		"telerik",
-		"mobile",
 		"nativescript",
+		"coffeescript",
+		"mobile",
 		"{N}",
 		"tns",
 		"appbuilder",
@@ -16,12 +16,12 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/NativeScript/template-hello-world.git"
+		"url": "git://github.com/ipsquare/nativescript-coffeescript-template.git"
 	},
 	"bugs": {
-		"url": "https://github.com/NativeScript/template-hello-world/issues"
+		"url": "https://github.com/ipsquare/nativescript-coffeescript-template/issues"
 	},
-	"homepage": "https://github.com/NativeScript/template-hello-world",
+	"homepage": "https://github.com/ipsquare/nativescript-coffeescript-template",
 	"android": {
 		"v8Flags": "--expose_gc"
 	}
