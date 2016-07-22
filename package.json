@@ -1,7 +1,7 @@
 {
 	"name": "nativescript-coffeescript-template",
 	"main": "app.js",
-	"version": "^2.1.*",
+	"version": "2.1.1",
 	"author": "Amit <dev@ipsquare.com>",
 	"description": "Nativescript Coffeescript hello-world project template",
 	"license": "Apache-2.0",
