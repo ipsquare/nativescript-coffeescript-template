@@ -1,7 +1,7 @@
 {
 	"name": "nativescript-coffeescript-template",
 	"main": "app.js",
-	"version": "2.1.1",
+	"version": "2.5.0",
 	"author": "Amit <dev@ipsquare.com>",
 	"description": "Nativescript Coffeescript hello-world project template",
 	"license": "Apache-2.0",
@@ -24,5 +24,11 @@
 	"homepage": "https://github.com/ipsquare/nativescript-coffeescript-template",
 	"android": {
 		"v8Flags": "--expose_gc"
+	},
+	"dependencies": {
+		"nativescript-theme-core": "^0.2.1"
+	},
+	"devDependencies": {
+		"nativescript-dev-android-snapshot": "^0.*.*"
 	}
 }
