@@ -7,7 +7,7 @@ getMessage = (counter) ->
     counter + ' taps left'
 
 createViewModel = ->
-  viewModel = new Observable
+  viewModel = new Observable()
   viewModel.counter = 42
   viewModel.message = getMessage(viewModel.counter)
 
