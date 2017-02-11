@@ -9,24 +9,14 @@ NativeScript adheres to the CommonJS specification for dealing with
 JavaScript modules. The CommonJS require() function is how you import
 JavaScript modules defined in other files.
 ###
-
 createViewModel = require('./main-view-model').createViewModel
 
-###
-Exporting a function in a NativeScript code-behind file makes it accessible
-to the file’s corresponding XML file. In this case, exporting the onNavigatingTo
-function here makes the navigatingTo="onNavigatingTo" binding in this page’s XML
-file work.
-###
-
 onNavigatingTo = (args) ->
-
   ###
   This gets a reference this page’s <Page> UI component. You can
   view the API reference of the Page to see what’s available at
   https://docs.nativescript.org/api-reference/classes/_ui_page_.page.html
   ###
-
   page = args.object
 
   ###
@@ -39,8 +29,13 @@ onNavigatingTo = (args) ->
   You can learn more about data binding in NativeScript at
   https://docs.nativescript.org/core-concepts/data-binding.
   ###
-
   page.bindingContext = createViewModel()
   return
 
+###
+Exporting a function in a NativeScript code-behind file makes it accessible
+to the file’s corresponding XML file. In this case, exporting the onNavigatingTo
+function here makes the navigatingTo="onNavigatingTo" binding in this page’s XML
+file work.
+###
 exports.onNavigatingTo = onNavigatingTo
